@@ -1,0 +1,44 @@
+* {margin: 0; padding: 0;}
+
+@import url('https://fonts.googleapis.com/css2?family=Risque&display=swap');
+
+@font-face {
+  font-family: 'Risque';
+  src: url(../fontes/Risque-Regular.ttf)
+}
+
+:root {
+ 
+  --cor-primeira: #DA592F;
+  --cor-segunda: #FE6201;
+  --cor-terceira: #41140E;
+  --cor-quarta: #B30D0C;
+  --cor-quinta: #FEA700;
+  --cor-sexta: #DAAF8E;
+  --cor-setima: #F2EFEB;
+  --cor-oitava: #2C1E22;
+  --cor-nona: #726769;
+
+  --fonte-principal: 'Risque';
+
+}
+
+body {background: linear-gradient(to bottom, var(--cor-primeira), var(--cor-quarta));}
+
+#header-defy {display: flex; justify-content: center;}
+#logo-defy {width: 125px;}
+
+main {font-size: 20px; width: 1000px; height: 500px; background-color: var(--cor-setima);  margin: auto; }
+#video-defy {width: 1000px; height: 570px; object-fit: cover;}
+
+#p-defy {text-align: center;}
+
+#footer-defy {display: flex; align-items: center; justify-content: center; position: relative; background-color: var(--cor-terceira); margin: 44px; padding: 12px; color: wheat; width: 1300px; border-radius: 20px; margin-left: 100px;}
+
+#nav-ul-defy {font-size: 25px; display: flex; text-indent: 45px; font-family: var(--fonte-principal); margin-left: -40px; }
+
+
+.nav-div-defy:hover {color: beige;}
+
+.nav-a-defy {text-decoration: none; color:#DAAF8E;}
+.nav-a-defy:hover {color: aqua; transition: 0.3s;}
