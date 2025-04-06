@@ -33,9 +33,9 @@ main {font-size: 20px; width: 1000px; height: 500px; background-color: var(--cor
 
 #p-defy {text-align: center;}
 
-#footer-defy {display: flex; align-items: center; justify-content: center; position: relative; background-color: var(--cor-terceira); margin: 44px; padding: 12px; color: wheat; width: 1300px; border-radius: 20px; margin-left: 100px;}
+#footer-defy {display: flex; align-items: center; justify-content: center; position: relative; background-color: var(--cor-terceira); margin: 44px; padding: 15px; color: wheat; width: 1180px; border-radius: 20px; margin-left: 80px;}
 
-#nav-ul-defy {font-size: 25px; display: flex; text-indent: 45px; font-family: var(--fonte-principal); margin-left: -40px; }
+#nav-ul-defy {font-size: 25px; display: flex; text-indent: 40px; font-family: var(--fonte-principal); margin-left: -60px; }
 
 
 .nav-div-defy:hover {color: beige;}
